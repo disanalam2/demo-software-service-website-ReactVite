@@ -23,7 +23,7 @@ const App = () => {
       {activeSection === 'home' && (
         <section className="hero">
           <div className="hero-text">
-            <h1>Khedmat Al Barmajiat</h1>
+            <h1>KhAB PRIVATE LIMITED</h1>
             <p>
               At KhAB PRIVATE LIMITED, we are driven by a singular mission: to revolutionize the way businesses
               operate by providing cutting-edge software solutions. Founded by a team of passionate tech enthusiasts,
