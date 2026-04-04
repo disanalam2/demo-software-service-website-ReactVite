@@ -3,7 +3,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #f9f9f9;
   color: #333;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .navbar {
@@ -42,8 +42,8 @@ nav button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   padding: 4rem 2rem;
+  height: 77vh;
   background: linear-gradient(to right, #fff, #f0f0f5);
 }
 
@@ -65,7 +65,7 @@ nav button:hover {
 }
 
 .hero-image img {
-  max-width: 300px;
+  max-width: 20vw;
   border-radius: 50vw;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
@@ -74,7 +74,7 @@ nav button:hover {
   display: inline-block;
   margin-right: 1rem;
   padding: 0.75rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 2vw;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
@@ -88,31 +88,35 @@ nav button:hover {
 .btn-primary:hover {
   background-color: #002244;
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .btn-outline {
-  border: 2px solid #003366;
-  color: #003366;
-  background: transparent;
+  background-color: #003366;
+  color: #fff;
+  
 }
 
 .btn-outline:hover {
-  background-color: #003366;
   color: #fff;
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .section {
   padding: 4rem 2rem;
+  
 }
 
 footer {
+  display: flex;
   background-color: #1e1e2f;
   color: #ccc;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  position: sticky;
-  bottom : 0;
-  z-index: 1000;
+  position: fixed;
+  bottom:0vh;
+  width: 100vw;
+  
 }

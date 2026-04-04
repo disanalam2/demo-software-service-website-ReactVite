@@ -1,0 +1,97 @@
+section
+ {
+  width: 92vw;
+  margin: auto;
+  padding-top: 5vw;
+  border-radius: 1vw;
+  box-shadow: 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+
+
+
+.input-group {
+  margin-bottom: 1vw;
+}
+
+label {
+  display: block;
+  margin-bottom: .5vw;
+  color: #333;
+  padding-left: 5vw;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 85%;
+  padding: 1vw;
+  margin-left: 5vw;
+  border: 1px solid #333;
+  border-radius: .5vw;
+  font-size: .5vw;
+  transition: border-color 0.3s ease;
+  color: #333;
+}
+
+input[type="float"] {
+  width: 25vw;
+  padding: .5vw;
+  border: .1vw solid #333;
+  border-radius: .5vw;
+  font-size: .5vw;
+  transition: border-color 0.3s ease;
+  color: #333;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+}
+
+.checkbox-group div {
+  display: flex;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts button {
+  padding: 1vw 2vw;
+  border: none;
+  border-radius: .5vw;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contacts button:hover {
+  background-color: #0056b3;
+}
+
+#error-message {
+  color: red;
+  margin-top: 1vw;
+}
+
+#success-message {
+  color: green;
+  margin-top: 1vw;
+}
+
+div label,
+select {
+  font-size: 2.5vw;
+}
+
+.hear-about {
+  width: 50vw;
+  margin-right: 5vw;
+} 
