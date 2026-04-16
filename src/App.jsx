@@ -41,7 +41,7 @@ const App = () => {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/public/KhaAB PRIVATE LIMITED.png" alt="KhAB PRIVATE LIMITED" />
+            <img src="KhaABPRIVATELIMITED.png" alt="KhAB PRIVATE LIMITED" />
           </div>
         </section>
       )}
